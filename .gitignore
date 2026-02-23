@@ -1,0 +1,155 @@
+# ===============================
+# FRONTEND - DO NOT COMMIT
+# ===============================
+#frontend/
+#!frontend/streamlit/streamlit_app.py
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# ===============================
+# Maven Build
+# ===============================
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===============================
+# IDE - IntelliJ IDEA
+# ===============================
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ===============================
+# IDE - Eclipse / STS
+# ===============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# ===============================
+# IDE - NetBeans
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===============================
+# IDE - VS Code
+# ===============================
+.vscode/
+.code-workspace
+
+# ===============================
+# Python Virtual Environment
+# ===============================
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===============================
+# Operating System Files
+# ===============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Application Logs
+# ===============================
+*.log
+logs/
+spring.log
+
+# ===============================
+# Environment & Secrets
+# ===============================
+.env
+.env.local
+.env.*.local
+application-local.properties
+*.properties
+application-prod.properties
+
+# Ignore main application.properties to prevent committing sensitive data
+# (Razorpay keys, database credentials, JWT secrets, etc.)
+src/main/resources/application.properties
+target/classes/application.properties
+
+# ===============================
+# Documentation (Optional)
+# ===============================
+HELP.md
+
+# ===============================
+# Nested Git Repositories
+# ===============================
+**/.git/
+.git/
+*/.git/*
